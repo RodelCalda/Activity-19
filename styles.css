@@ -1,0 +1,45 @@
+html, body {
+    height: 100%; 
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column; 
+}
+
+main {
+    flex: 1; 
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: #35424a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #e8491d;
+    padding: 10px;
+    text-align: center; 
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px; 
+    font-weight: bold;
+    display: inline-block;
+}
+
+footer {
+    background-color: #35424a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
